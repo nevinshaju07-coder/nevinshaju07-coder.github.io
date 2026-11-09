@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nevin Shaju | AI Security Engineer, Dubai UAE</title>
+  <meta name="description" content="Nevin Shaju is an AI Security Engineer in Dubai, UAE, focused on LLM and agentic AI security, detection engineering and cloud security. UAE resident, available immediately.">
+  <meta name="author" content="Nevin Shaju">
+  <meta name="theme-color" content="#05070d">
+  <link rel="canonical" href="https://nevinshaju07-coder.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nevin Shaju">
+  <meta property="og:title" content="Nevin Shaju | AI Security Engineer">
+  <meta property="og:description" content="LLM and agentic AI security, detection engineering and cloud security. Dubai, UAE. Available immediately.">
+  <meta property="og:url" content="https://nevinshaju07-coder.github.io/">
+  <meta property="og:image" content="https://nevinshaju07-coder.github.io/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nevin Shaju, AI Security Engineer, Dubai UAE">
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nevin Shaju | AI Security Engineer">
+  <meta name="twitter:description" content="LLM and agentic AI security, detection engineering and cloud security. Dubai, UAE.">
+  <meta name="twitter:image" content="https://nevinshaju07-coder.github.io/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nevin Shaju",
+    "jobTitle": "AI Security Engineer",
+    "url": "https://nevinshaju07-coder.github.io/",
+    "email": "mailto:Nevinshaju07@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dubai", "addressCountry": "AE" },
+    "alumniOf": ["Leeds Beckett University", "A.P.J. Abdul Kalam Technological University"],
+    "sameAs": ["https://www.linkedin.com/in/nevin-shaju", "https://github.com/nevinshaju07-coder"]
+  }
+  </script>
+
+  <!-- Three.js resolved from a pinned CDN version. Only loaded when a 3D scene is needed. -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script>
+    // Set capability flags before first paint so CSS can adapt immediately.
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('reduced-motion');
+      try { if (sessionStorage.getItem('booted')) d.classList.add('booted'); } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Terminal boot loader (max 1.5s, shown once per session, skipped for reduced motion) -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <pre class="loader__log" id="loaderLog"></pre>
+    <div class="loader__bar"><span id="loaderBar"></span></div>
+  </div>
+
+  <!-- Visual overlays: faint grid, scanlines, noise -->
+  <div class="fx-grid" aria-hidden="true"></div>
+  <div class="fx-scan" aria-hidden="true"></div>
+  <div class="fx-noise" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top" aria-label="Nevin Shaju, back to top">
+        <svg class="nav__logo" viewBox="0 0 32 32" aria-hidden="true"><use href="#i-shield"/></svg>
+        <span>NEVIN<span class="accent">.</span>SHAJU</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr-only">Open menu</span><span class="nav__burger" aria-hidden="true"></span>
+      </button>
+      <nav class="nav__menu" id="navMenu" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#writeups">Write-ups</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn--small btn--primary" href="assets/Nevin_Shaju_CV.pdf" download>
+          <svg aria-hidden="true"><use href="#i-download"/></svg>Download CV
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__sticky">
+        <div class="hero__stage" id="heroStage">
+          <!-- Static image used for reduced motion, no WebGL, or before the 3D scene loads -->
+          <img class="hero__static" src="assets/hero-static.webp" width="1240" height="1000"
+               alt="Illustration of a 1980s beige computer with a glowing CRT screen showing Nevin Shaju's name and title"
+               fetchpriority="high" decoding="async">
+          <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+        </div>
+        <div class="hero__fade" id="heroFade" aria-hidden="true"></div>
+        <div class="hero__copy" id="heroCopy">
+          <p class="hero__kicker mono"><span class="dot dot--live"></span> Available immediately <span class="sep">/</span> Dubai, UAE</p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="hero__name">Nevin Shaju</span>
+            <span class="hero__role">AI Security Engineer</span>
+          </h1>
+          <p class="hero__sub">LLM and Agentic AI Security <span class="sep">|</span> Detection Engineering <span class="sep">|</span> Cloud Security</p>
+          <div class="hero__ctas">
+            <a class="btn btn--primary" href="assets/Nevin_Shaju_CV.pdf" download>
+              <svg aria-hidden="true"><use href="#i-download"/></svg>Download CV
+            </a>
+            <a class="btn btn--ghost" href="#projects">
+              <svg aria-hidden="true"><use href="#i-arrow"/></svg>View Projects
+            </a>
+          </div>
+        </div>
+        <div class="hero__scroll mono" aria-hidden="true">scroll to enter <span class="hero__scroll-line"></span></div>
+      </div>
+    </section>
+
+    <!-- ============ 2. ABOUT + QUICK FACTS ============ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__text reveal">
+          <p class="eyebrow mono">01 <span>// about</span></p>
+          <h2 id="about-title" class="h2">Securing AI systems, from the SOC side.</h2>
+          <p class="lead">I secure Generative AI and agentic AI systems, and I come at it from the security operations side. After a year on a 24/7 MDR team investigating real incidents in Microsoft Sentinel and Splunk, I started breaking and defending LLM applications: testing prompt injection and jailbreaks, building guardrails, and writing detections mapped to MITRE ATLAS and the OWASP Top 10 for LLM Applications. I have built my own agentic SOC and I am building Haris AI, an AI security gateway for UAE organisations. I hold an MSc in Cyber Security and rank in the top 1% on TryHackMe.</p>
+          <h3 class="h4 mono what-title">What I do</h3>
+          <ul class="what-list">
+            <li><span class="what-list__icon" aria-hidden="true"><svg><use href="#i-lock"/></svg></span>Secure LLM and agentic AI apps</li>
+            <li><span class="what-list__icon" aria-hidden="true"><svg><use href="#i-target"/></svg></span>Red-team AI systems</li>
+            <li><span class="what-list__icon" aria-hidden="true"><svg><use href="#i-radar"/></svg></span>Write detections</li>
+            <li><span class="what-list__icon" aria-hidden="true"><svg><use href="#i-cloud"/></svg></span>Secure cloud environments</li>
+          </ul>
+        </div>
+
+        <aside class="facts reveal" aria-labelledby="facts-title">
+          <div class="facts__head">
+            <h2 id="facts-title" class="facts__title mono">quick_facts<span class="accent">.txt</span></h2>
+            <span class="facts__badge mono"><span class="dot dot--live"></span>Available</span>
+          </div>
+          <dl class="facts__list">
+            <div><dt>Target role</dt><dd>AI Security Engineer / SOC &amp; Detection Engineer</dd></div>
+            <div><dt>Location</dt><dd>Dubai, UAE (UAE resident), happy to work onsite in Abu Dhabi</dd></div>
+            <div><dt>Availability</dt><dd class="amber">Immediately</dd></div>
+            <div><dt>Experience</dt><dd>24/7 MDR SOC (Tier 1/2), freelance security consulting, cloud/SRE</dd></div>
+            <div><dt>Education</dt><dd>MSc Cyber Security (Merit), Leeds Beckett University, UK</dd></div>
+            <div><dt>Top certifications</dt><dd>Google Cloud Professional Cloud Security Engineer, CompTIA Security+, CEH v12</dd></div>
+            <div><dt>TryHackMe</dt><dd>Top 1% globally</dd></div>
+          </dl>
+          <div class="facts__ctas">
+            <a class="btn btn--primary" href="assets/Nevin_Shaju_CV.pdf" download>
+              <svg aria-hidden="true"><use href="#i-download"/></svg>Download CV (PDF)
+            </a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/nevin-shaju" target="_blank" rel="noopener">
+              <svg aria-hidden="true"><use href="#i-linkedin"/></svg>Connect on LinkedIn
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ 3. PROJECTS ============ -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow mono">02 <span>// products &amp; projects</span></p>
+          <h2 id="projects-title" class="h2">Things I have built</h2>
+          <p class="section__intro">Security tools and labs for AI applications and SOC teams. Select a card for the details.</p>
+        </div>
+        <div class="cards" id="projectCards">
+          <!-- Rendered from js/data.js. Fallback text for no-JS visitors: -->
+          <noscript><p>Projects: Haris AI, AegisSOC, Agentic SOC, Splunk SOC and Network Detection Lab, ML Foundations. See github.com/nevinshaju07-coder.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. TOOLS UNIVERSE ============ -->
+    <section class="section tools" id="tools" aria-labelledby="tools-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow mono">03 <span>// tools &amp; frameworks</span></p>
+          <h2 id="tools-title" class="h2">My toolkit</h2>
+          <p class="section__intro">The tools and frameworks I work with, grouped by area. Hover or tap a tile.</p>
+        </div>
+        <div class="tools__bar reveal">
+          <ul class="tools__legend" id="toolsLegend" aria-label="Tool groups"></ul>
+          <div class="tools__view" role="group" aria-label="View">
+            <button class="chip chip--btn" id="view3d" aria-pressed="true">3D</button>
+            <button class="chip chip--btn" id="viewGrid" aria-pressed="false">Grid</button>
+          </div>
+        </div>
+        <div class="tools__stage" id="toolsStage">
+          <canvas class="tools__canvas" id="toolsCanvas" aria-hidden="true"></canvas>
+          <div class="tools__info" id="toolsInfo" aria-live="polite">
+            <span class="tools__info-group mono" id="toolsInfoGroup">select a tile</span>
+            <strong id="toolsInfoName">Tools universe</strong>
+            <span id="toolsInfoDesc">Drag to rotate. Hover or tap a tile to read what it is.</span>
+          </div>
+        </div>
+        <ul class="tools__grid" id="toolsGrid" aria-label="Tools and frameworks"></ul>
+      </div>
+    </section>
+
+    <!-- ============ 5. AI RED TEAMING ============ -->
+    <section class="section redteam" id="redteam" aria-labelledby="redteam-title">
+      <div class="container redteam__grid">
+        <div class="section__head reveal">
+          <p class="eyebrow mono">04 <span>// ai red teaming</span></p>
+          <h2 id="redteam-title" class="h2">Breaking models to defend them</h2>
+          <p class="section__intro">The attacks I learn on challenge platforms become test cases for the defences I build.</p>
+          <div class="thm-badge" id="thmBadge">
+            <!-- TODO: Replace href="#" with your TryHackMe public profile URL, e.g. https://tryhackme.com/p/YOUR_USERNAME -->
+            <!-- TODO (optional): Replace this placeholder with your official TryHackMe badge image or iframe. -->
+            <a class="thm-badge__link" href="#" aria-label="TryHackMe profile (link coming soon)">
+              <svg class="thm-badge__icon" viewBox="0 0 48 48" aria-hidden="true"><use href="#i-flag"/></svg>
+              <span class="thm-badge__text">
+                <span class="mono thm-badge__label">TryHackMe</span>
+                <strong>Top 1% globally</strong>
+                <span class="mono thm-badge__meta">300+ labs completed</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="terminal reveal" role="region" aria-label="AI red teaming log">
+          <div class="terminal__bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <em class="mono">nevin@redteam: ~/achievements</em>
+          </div>
+          <!-- Full text is in the markup for screen readers and search engines; JS types it in visually. -->
+          <div class="terminal__body mono" id="terminalBody">
+            <p class="t-line t-cmd"><span class="t-prompt">$</span> ./show_achievements --ai-red-team</p>
+            <p class="t-line t-dim">[*] loading engagement log...</p>
+            <p class="t-line"><span class="t-ok">[+]</span> <strong>Lakera Gandalf</strong>: prompt injection challenges completed</p>
+            <!-- TODO: Add the highest Gandalf level you reached, e.g. "level: 8/8". Then remove the "pending" text below. -->
+            <p class="t-line t-sub">level: <span class="t-warn">pending update</span></p>
+            <p class="t-line t-sub">got the model to reveal its protected password through jailbreaks, role-play, encoding tricks and indirect questions</p>
+            <p class="t-line t-sub">these attacks became test cases for Haris AI</p>
+            <p class="t-line"><span class="t-ok">[+]</span> <strong>TryHackMe</strong>: top 1% globally</p>
+            <p class="t-line t-sub">300+ labs completed</p>
+            <p class="t-line t-sub">AI and LLM security rooms: prompt injection, insecure output handling, attacking AI applications</p>
+            <p class="t-line t-dim">[*] done. 0 errors. <span class="t-cursor" aria-hidden="true"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. EXPERIENCE ============ -->
+    <section class="section experience" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow mono">05 <span>// experience</span></p>
+          <h2 id="exp-title" class="h2">Where I have worked</h2>
+        </div>
+        <ol class="timeline" id="timeline">
+          <li class="timeline__trace" aria-hidden="true"><span class="timeline__flow"></span></li>
+          <!-- Entries rendered from js/data.js -->
+        </ol>
+        <noscript>
+          <p>Freelance Cybersecurity Consultant, Manchester Cyber Digital (Sep 2025 to Present). SOC Analyst Tier 1/2, Industrus Tech (Jan 2025 to Dec 2025). Technical Support / Site Reliability Engineer, Industrus Tech (Sep 2024 to Sep 2025).</p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ============ 7. SKILLS & CERTS ============ -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow mono">06 <span>// skills &amp; certifications</span></p>
+          <h2 id="skills-title" class="h2">Skills</h2>
+        </div>
+        <div class="skills__grid" id="skillsGrid"></div>
+        <h2 class="h2 certs__title reveal" id="certs-title">Certifications</h2>
+        <ul class="certs" id="certsGrid" aria-labelledby="certs-title"></ul>
+      </div>
+    </section>
+
+    <!-- ============ 8. WRITE-UPS ============ -->
+    <section class="section writeups" id="writeups" aria-labelledby="writeups-title">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow mono">07 <span>// write-ups</span></p>
+            <h2 id="writeups-title" class="h2">Write-ups</h2>
+          </div>
+          <a class="link-arrow" href="blog/">View all <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="post-cards" id="latestPosts" aria-live="polite">
+          <!-- Filled from blog/posts.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="reveal">
+          <p class="eyebrow mono">08 <span>// contact</span></p>
+          <h2 id="contact-title" class="h2 h2--big">Let's talk</h2>
+          <p class="lead">Open to AI Security and SOC roles in the UAE. Available immediately.</p>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>
+              <span class="contact__body"><span class="contact__label mono">Email</span>
+                <a class="contact__value" href="mailto:Nevinshaju07@gmail.com">Nevinshaju07@gmail.com</a></span>
+              <button class="copy-btn" data-copy="Nevinshaju07@gmail.com" aria-label="Copy email address"><svg aria-hidden="true"><use href="#i-copy"/></svg></button>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true"><svg><use href="#i-phone"/></svg></span>
+              <span class="contact__body"><span class="contact__label mono">Phone / WhatsApp</span>
+                <a class="contact__value" href="tel:+971557517255">+971 55 751 7255</a>
+                <a class="contact__extra" href="https://wa.me/971557517255" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-chat"/></svg>Message on WhatsApp</a></span>
+              <button class="copy-btn" data-copy="+971 55 751 7255" aria-label="Copy phone number"><svg aria-hidden="true"><use href="#i-copy"/></svg></button>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true"><svg><use href="#i-linkedin"/></svg></span>
+              <span class="contact__body"><span class="contact__label mono">LinkedIn</span>
+                <a class="contact__value" href="https://www.linkedin.com/in/nevin-shaju" target="_blank" rel="noopener">linkedin.com/in/nevin-shaju</a></span>
+              <button class="copy-btn" data-copy="https://www.linkedin.com/in/nevin-shaju" aria-label="Copy LinkedIn URL"><svg aria-hidden="true"><use href="#i-copy"/></svg></button>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true"><svg><use href="#i-github"/></svg></span>
+              <span class="contact__body"><span class="contact__label mono">GitHub</span>
+                <a class="contact__value" href="https://github.com/nevinshaju07-coder" target="_blank" rel="noopener">github.com/nevinshaju07-coder</a></span>
+              <button class="copy-btn" data-copy="https://github.com/nevinshaju07-coder" aria-label="Copy GitHub URL"><svg aria-hidden="true"><use href="#i-copy"/></svg></button>
+            </li>
+            <li class="contact__item">
+              <span class="contact__icon" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>
+              <span class="contact__body"><span class="contact__label mono">Location</span>
+                <span class="contact__value">Dubai, UAE</span></span>
+              <button class="copy-btn" data-copy="Dubai, UAE" aria-label="Copy location"><svg aria-hidden="true"><use href="#i-copy"/></svg></button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- TODO: Replace YOUR_FORM_ID with your Formspree form ID (https://formspree.io > New form). Example: https://formspree.io/f/abcdwxyz -->
+        <form class="form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <h3 class="h4 mono form__title">send_message()</h3>
+          <div class="form__row">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form__row">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form__row">
+            <label for="f-company">Company <span class="optional">(optional)</span></label>
+            <input id="f-company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="form__row">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- Honeypot field: bots fill it in, humans never see it -->
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New message from your portfolio site">
+          <button class="btn btn--primary btn--block" type="submit"><svg aria-hidden="true"><use href="#i-send"/></svg>Send message</button>
+          <p class="form__status mono" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name">Nevin Shaju <span class="mono">// AI Security Engineer</span></p>
+      <ul class="footer__social">
+        <li><a href="https://www.linkedin.com/in/nevin-shaju" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a href="https://github.com/nevinshaju07-coder" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a></li>
+        <li><a href="mailto:Nevinshaju07@gmail.com" aria-label="Email"><svg aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+      </ul>
+      <p class="footer__copy mono">(c) 2026 Nevin Shaju</p>
+    </div>
+  </footer>
+
+  <!-- Project detail dialog -->
+  <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
+    <div class="modal__inner">
+      <button class="modal__close" id="modalClose" aria-label="Close project details"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+      <div id="modalContent"></div>
+    </div>
+  </dialog>
+
+  <div class="toast mono" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Icon sprite (generic icons, no brand logos) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-shield" viewBox="0 0 32 32"><path d="M16 2 4 7v8c0 7.3 5.1 13.4 12 15 6.9-1.6 12-7.7 12-15V7L16 2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m11 16 3.5 3.5L21 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v4m0 14v4M1 12h4m14 0h4" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-radar" viewBox="0 0 24 24"><path d="M12 12 19 5M21 12a9 9 0 1 1-3-6.7M17 12a5 5 0 1 1-2-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 0 0 .5-8A6 6 0 0 0 6 9.5 4.3 4.3 0 0 0 7 18Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m3 7 9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 20l1.5-4A8 8 0 1 1 9 19.3L4 20Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 10v7M8 7v.01M12 17v-7m0 3a3 3 0 0 1 5 0v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="6" cy="19" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="8" r="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 7v10M18 10c0 4-6 3-11.5 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 48 48"><path d="M24 4 7 11v11c0 10.5 7.2 19.4 17 22 9.8-2.6 17-11.5 17-22V11L24 4Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M18 33V15m0 1h12l-3 4 3 4H18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-cert" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="2"/><path d="m8.5 14-1.5 8 5-3 5 3-1.5-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <!-- GSAP + ScrollTrigger, pinned versions. Deferred so they never block first paint. -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

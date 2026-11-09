@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "slug": "how-to-write-a-post",
+      "title": "How to write a post",
+      "date": "2026-11-08",
+      "summary": "A template that shows the markdown format for write-ups: headings, code blocks, images and links.",
+      "tags": ["CTF / Labs"],
+      "published": false
+    }
+  ]
+}
